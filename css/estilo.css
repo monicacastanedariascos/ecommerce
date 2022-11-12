@@ -1,6 +1,4 @@
-
- 	
-
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;500&family=Mukta:wght@300&display=swap');
 
 body {
 	box-sizing: border-box;
@@ -8,31 +6,34 @@ body {
 	margin: 0 auto;
 	font-family: sans-serif;
 	width: 100%;
-	/*background-color: white;*/
+	height: 100%;
 	
 }
 body header{
 
-	background-image: url(imagenes/PNG/.png);
 	background-repeat: no-repeat;
 	background-position: 0px 0px ;
 	background-size: cover;
+	background-image: url(imagenes/PNG/.png);
+	
 	
 }
  header section {
-	background-color: white;
+	
 	width: 90%;
-	align-content: center;
+	display: flex;
+	justify-content: left;
 	clear: both;
 	content:'';
 	display: table;
 	margin: 0px 50px 50px 50px;
-
+	
 
 }
 .menu{
 	width: 900px;
 	margin: 0 auto;
+	background-color: white;
 }
 
  header img {
@@ -55,6 +56,63 @@ nav ul li a{
 	font-weight: bold;
 	color: black;
 }
+
+
+
+
+
+.home{
+	height: 1000px;
+	background: url("../imagenes/PNG/Banner\ 1920x1200.png");
+	display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+	align-content: center;
+}
+.home h1{
+	width: 80%;
+	text-align: right;
+	color:white;
+	font-family:'Antonio', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 149px;
+	align-items: center;
+	margin: 2%;
+}
+.home button{
+	width: 20%;
+	height: 10%;
+	background-color: orange;
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	font-size: xx-large;
+	margin: 2%;
+	border-radius: 10px;
+	border: orange;
+}
+
+
+.nuestros{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.nuestros h1{
+	font-family: 'Mukta', sans-serif;
+	font-size: 4em;
+	width: 100%;
+	text-align: center;
+	margin: 3%;
+}
+
+
+
+
+
+
+
+
+
 section .parrafo{
 	background-color: white;
     text-align:center ;
@@ -73,7 +131,7 @@ section .parrafo{
 }
 .titulop{
 	font: normal normal medium 33px/40px Mukta;
-	etter-spacing: 0px;
+	letter-spacing: 0px;
 	color: #AACC05;
 	opacity: 1;
 }
@@ -211,10 +269,11 @@ section .contenedor h3{
 footer {
 	display: flex;
 	margin: 20px;
+
 }
 .cuadro1{
 	background-color: white;
-height: 300px;
+	height: 300px;
 }
 .cuadro1 ul li{
 	list-style: none;
